@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>你还真扫啊，罚你给我800快</title>
+<style>
+  html, body { height: 100%; }
+  html, body { margin: 0; background: #000; }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vmin;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  p {
+    margin: 0;
+    max-width: 16em;
+    font-size: clamp(21px, 6.6vw, 46px);
+    text-shadow: 0 0 24px rgba(255, 255, 255, 0.18);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    p { animation: rise 700ms ease-out both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: none; }
+    }
+  }
+</style>
+</head>
+<body>
+  <p>你还真扫啊，罚你给我800快</p>
+</body>
+</html>
